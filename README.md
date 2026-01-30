@@ -51,15 +51,15 @@ The power output stage is a 3-phase bridge comprised of six **IRG4PF50W IGBTs**.
 
 | Component | Purpose | Image |
 | :--- | :--- | :--- |
-| **ESP32-DEVKITC-32D** | Microcontroller for SPWM generation and control logic. | ![ESP32 Module](placeholder-small-esp32) |
-| **IRG4PF50W** | High-power IGBT switch for the inverter bridge. | ![IRG4PF50W IGBT](placeholder-small-igbt) |
-| **IR2110** | High/Low side driver IC for driving IGBT gates. | ![IR2110 Driver IC](placeholder-small-ir2110) |
-| **TLP350** | Optocoupler for galvanic isolation of logic signals. | ![TLP350 Opto](placeholder-small-tlp350) |
-| **GBJ2510** | Bridge Rectifier to convert AC Mains to DC. | ![GBJ2510 Bridge](placeholder-small-bridge-rectifier) |
-| **470µF Capacitor** | Smoothing capacitor for the high-voltage DC Bus. | ![470uF Capacitor](placeholder-small-cap-470uf) |
-| **UF4007** | Fast recovery bootstrap diode for high-side driving. | ![UF4007 Diode](placeholder-small-diode) |
-| **10k Potentiometer** | User input for setting motor frequency/speed. | ![Potentiometer](placeholder-small-pot) |
-| **NTC Thermistor** | Inrush current limiter for circuit protection. | ![NTC Thermistor](placeholder-small-ntc) |
-| **Fuse 10A** | Main power input safety protection. | ![10A Fuse](placeholder-small-fuse) |
-| **Resistor 22Ω** | [cite_start]Gate resistor to dampen ringing and limit peak current[cite: 21]. | ![22 Ohm Resistor](placeholder-small-resistor-22) |
-| **Resistor 10kΩ** | [cite_start]Pull-down resistor for IGBT gates[cite: 34]. | ![10k Resistor](placeholder-small-resistor-10k) |
+| **ESP32-DEVKITC-32D** | Microcontroller for SPWM generation and control logic. | ![ESP32 Module](small-esp32.jpg) |
+| **IRG4PF50W** | High-power IGBT switch for the inverter bridge. | ![IRG4PF50W IGBT](igbt.jpg) |
+| **IR2110** | High/Low side driver IC for driving IGBT gates. | ![IR2110 Driver IC](ir2110.jpg) |
+| **TLP350** | Optocoupler for galvanic isolation of logic signals. | ![TLP350 Opto](tlp350.jpg) |
+| **GBJ2510** | Bridge Rectifier to convert AC Mains to DC. | ![GBJ2510 Bridge](rectifier.jpg) |
+| **470µF Capacitor** | Smoothing capacitor for the high-voltage DC Bus. | ![470uF Capacitor](caps3.jpg) |
+| **UF4007** | Fast recovery bootstrap diode for high-side driving. | ![UF4007 Diode](diodes.jpg) |
+| **10k Potentiometer** | User input for setting motor frequency/speed. | ![Potentiometer](potentiometer.jpg) |
+| **NTC Thermistor** | Inrush current limiter for circuit protection. | ![NTC Thermistor](NTC.jpg) |
+| **Fuse 10A** | Main power input safety protection. | ![10A Fuse](fuse.jpg) |
+| **Resistor 22Ω** | Gate resistor to dampen ringing and limit peak current[cite: 21]. | ![22 Ohm Resistor](resistor22.jpg) |
+| **Resistor 10kΩ** | Pull-down resistor for IGBT gates. | ![10k Resistor](resistor1.jpg) |
