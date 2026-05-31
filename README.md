@@ -63,3 +63,16 @@ The power output stage is a 3-phase bridge comprised of six **IRG4PF50W IGBTs**.
 | **Fuse 10A** | Main power input safety protection. | ![10A Fuse](fuse.jpg) |
 | **Resistor 22Ω** | Gate resistor to dampen ringing and limit peak current[cite: 21]. | ![22 Ohm Resistor](resistor22.jpg) |
 | **Resistor 10kΩ** | Pull-down resistor for IGBT gates. | ![10k Resistor](resistor1.jpg) |
+
+---
+
+## Prefboard final result 
+![10k Resistor](PREFBOARD-FINAL-RESULT.jpg)
+![10k Resistor](photo_2026-05-31_18-20-34.jpg)
+
+---
+
+## PCB design
+![10k Resistor](photo_2026-05-31_18-20-53.jpg)
+![10k Resistor](PCB-ANGLE-VIEW.jpg)
+![10k Resistor](photo_2026-05-31_18-20-49.jpg)
